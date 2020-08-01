@@ -6,26 +6,26 @@ public class main {
     public static void main(String argv[]) {
         // expected output: imtgdvs fearwer mayoogo anouuio ntnnlvt wttddes aohghn sseoau
         String s1 = "if man was meant to stay on the ground god would have given us roots";
-        System.out.println(encryption(s1));
-        System.out.println("imtgdvs fearwer mayoogo anouuio ntnnlvt wttddes aohghn sseoau");
+        System.out.println("actual:\t\t" + encryption(s1));
+        System.out.println("expected:\timtgdvs fearwer mayoogo anouuio ntnnlvt wttddes aohghn sseoau");
         System.out.println();
 
         // expected output: hae and via ecy
         String s2 = "haveaniceday";
-        System.out.println(encryption(s2));
-        System.out.println("hae and via ecy");
+        System.out.println("actual:\t\t" + encryption(s2));
+        System.out.println("expected:\thae and via ecy");
         System.out.println();
 
         // expected output: fto ehg ee dd
         String s3 = "feedthedog";
-        System.out.println(encryption(s3));
-        System.out.println("fto ehg ee dd");
+        System.out.println("actual:\t\t" + encryption(s3));
+        System.out.println("expected:\tfto ehg ee dd");
         System.out.println();
 
         // expected output: clu hlt io
         String s4 = "chillout";
-        System.out.println(encryption(s4));
-        System.out.println("clu hlt io");
+        System.out.println("actual:\t\t" + encryption(s4));
+        System.out.println("expected:\tclu hlt io");
         System.out.println();
     }
 
